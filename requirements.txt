@@ -7,4 +7,15 @@ requests==2.31.0
 lxml==4.9.3
 setuptools==69.0.2
 pydantic==2.5.0
+
 httpx==0.25.0
+
+download dependencies usinf this command
+pip install -r requirements.txt
+
+
+
+run project according to this  command 
+uvicorn fresh_glassdoor_scraper:app --host 0.0.0.0 --port 8000 --reload
+uvicorn fresh_linkedin_scraper:app --host 0.0.0.0 --port 8000 --reload
+uvicorn fresh_naukri_scraper:app --host 0.0.0.0 --port 8000 --reload
