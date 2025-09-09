@@ -4,9 +4,10 @@ selenium==4.15.2
 beautifulsoup4==4.12.2
 requests==2.31.0
 httpx==0.25.0
-undetected-chromedriver==3.1.6
+lxml==6.0.1
 
-# Use latest compatible lxml
-lxml>=5.3.0
+# Add setuptools to provide distutils functionality
+setuptools==69.0.2
 
-# Optional: Remove setuptools if not needed
+# Use webdriver-manager instead of undetected-chromedriver
+webdriver-manager==4.0.1
