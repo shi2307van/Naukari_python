@@ -3,9 +3,10 @@ uvicorn[standard]==0.24.0
 selenium==4.15.2
 beautifulsoup4==4.12.2
 requests==2.31.0
-setuptools==69.0.2
 httpx==0.25.0
 undetected-chromedriver==3.1.6
 
-# Use a compatible lxml version for Python 3.11
-lxml==4.9.3
+# Use latest compatible lxml
+lxml>=5.3.0
+
+# Optional: Remove setuptools if not needed
