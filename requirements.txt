@@ -7,6 +7,8 @@ requests==2.31.0
 lxml==4.9.3
 setuptools==69.0.2
 pydantic==2.5.0
+pydantic-core==2.14.6
 httpx==0.25.0
 
 # install dependencies using this file
+
