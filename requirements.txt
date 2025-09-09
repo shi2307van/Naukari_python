@@ -7,7 +7,3 @@ requests==2.31.0
 lxml==4.9.3
 setuptools==69.0.2
 httpx==0.25.0
-
-# install dependencies using this file
-
-
