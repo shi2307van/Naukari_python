@@ -5,9 +5,7 @@ beautifulsoup4==4.12.2
 requests==2.31.0
 setuptools==69.0.2
 httpx==0.25.0
-
-# Use a compatible version of undetected-chromedriver
 undetected-chromedriver==3.1.6
 
-# Use pre-built binary for lxml to avoid compilation issues
-lxml==4.9.3 --only-binary=:all:
+# Use a compatible lxml version for Python 3.11
+lxml==4.9.3
